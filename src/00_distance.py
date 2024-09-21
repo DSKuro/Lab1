@@ -14,6 +14,11 @@ sites = {
 
 distances = {}
 
+for i in sites:
+    distances[i] = {}
+    for j in sites:
+        distances[i][j] = ( (sites[i][0] - sites[j][0]) ** 2 + (sites[i][1] - sites[j][1]) ** 2) ** 0.5
+
 # TODO здесь заполнение словаря
 
 print(distances)
