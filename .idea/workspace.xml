@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c35cf819-cb2c-497c-ab54-7bf274b3d732" name="Changes" comment="module">
-      <change afterPath="$PROJECT_DIR$/src/tests.py" afterDir="false" />
+    <list default="true" id="c35cf819-cb2c-497c-ab54-7bf274b3d732" name="Changes" comment="requirements.txt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/circle.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/circle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/distance.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/distance.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/favorite_movies.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/favorite_movies.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/garden.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/garden.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/my_family.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/my_family.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/operations.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/operations.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/secret.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/secret.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shopping.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/shopping.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/songs_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/songs_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/store.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zoo.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zoo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +136,23 @@
       <option name="project" value="LOCAL" />
       <updated>1726935544536</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="tests">
+      <option name="closed" value="true" />
+      <created>1726938003523</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1726938003523</updated>
+    </task>
+    <task id="LOCAL-00009" summary="requirements.txt">
+      <option name="closed" value="true" />
+      <created>1726938069896</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1726938069896</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,6 +174,8 @@
     <MESSAGE value="01-06" />
     <MESSAGE value="06 - 10" />
     <MESSAGE value="module" />
-    <option name="LAST_COMMIT_MESSAGE" value="module" />
+    <MESSAGE value="tests" />
+    <MESSAGE value="requirements.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="requirements.txt" />
   </component>
 </project>
