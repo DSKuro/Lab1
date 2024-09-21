@@ -15,5 +15,6 @@ if __name__ == "__main__":
 
 def print_operation_answer():
     print( 1 * (2 + 3) + (4 * 5) )
+    return 1 * (2 + 3) + (4 * 5)
 
 # TODO написать формулу для 1 2 3 4 5 и вывести значение на консоль

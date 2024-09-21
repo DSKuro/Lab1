@@ -47,11 +47,12 @@ def print_songs():
     halo_time = violator_songs_list[3][1]
     enjoy_time = violator_songs_list[5][1]
     clean_time = violator_songs_list[-1][1]
-    summ = halo_time + enjoy_time + clean_time
-    print("Три песни звучат " + str(round(summ, 2)))
+    summ1 = halo_time + enjoy_time + clean_time
+    print("Три песни звучат " + str(round(summ1, 2)))
 
     sweet_time = violator_songs_dict['Sweetest Perfection']
     policy_time = violator_songs_dict['Policy of Truth']
     blue_time = violator_songs_dict['Blue Dress']
-    summ = sweet_time + policy_time + blue_time
-    print('А другие три песни звучат ' + str(round(summ, 2)) + ' минут')
+    summ2 = sweet_time + policy_time + blue_time
+    print('А другие три песни звучат ' + str(round(summ2, 2)) + ' минут')
+    return (summ1, summ2)

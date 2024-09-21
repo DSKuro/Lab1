@@ -109,3 +109,4 @@ def print_store():
     print('Стул 1 -', chair_quantity1, 'шт, стоимость', chair_cost1, 'руб')
     print('Стул 2 -', chair_quantity2, 'шт, стоимость', chair_cost2, 'руб')
     print('Стул 3 -', chair_quantity3, 'шт, стоимость', chair_cost3, 'руб')
+    return (lamp_quantity, lamp_cost, chair_quantity1, chair_cost1)

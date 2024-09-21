@@ -34,3 +34,4 @@ def print_garden():
     print(garden_set & meadow_set)
     print(garden_set - meadow_set)
     print(meadow_set - garden_set)
+    return (garden_set, all_set, meadow_set - garden_set)

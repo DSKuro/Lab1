@@ -31,3 +31,4 @@ def print_zoo():
     print(zoo)
     print("Лев сидит на " + str(zoo.index('lion')) + ' позиции')
     print("Жаворонок сидит на " + str(zoo.index('lark')) + ' позиции')
+    return (zoo, zoo.index('lion'), zoo.index('lark'))

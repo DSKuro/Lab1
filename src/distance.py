@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
+# -*- coding: utf-8 -
 # Есть словарь координат городов
+
+import pytest
 
 sites = {
     'Moscow': (550, 370),
@@ -21,6 +22,7 @@ def get_distances():
             distances[i][j] = ( (sites[i][0] - sites[j][0]) ** 2 + (sites[i][1] - sites[j][1]) ** 2) ** 0.5
 
     print(distances)
+    return distances
 
 
 

@@ -45,3 +45,4 @@ sweets = {
 
 def print_shopping():
     print(sweets)
+    return sweets

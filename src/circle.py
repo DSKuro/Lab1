@@ -36,9 +36,11 @@ point_2 = (30, 30)
 
 def print_answer():
     pi = 3.1415926
-    print("S круга: " + str(round((pi * (radius ** 2)), 4)))
+    s = round((pi * (radius ** 2)), 4)
+    print("S круга: " + str(s))
     print("Точка лежит в/на круге: " + in_circle(point_1))
     print("Точка лежит в/на круге: " + in_circle(point_2))
+    return (s, in_circle(point_1), in_circle(point_2))
 
 # Пример вывода на консоль:
 #
