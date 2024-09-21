@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c35cf819-cb2c-497c-ab54-7bf274b3d732" name="Changes" comment="init start files">
+    <list default="true" id="c35cf819-cb2c-497c-ab54-7bf274b3d732" name="Changes" comment="distance">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/00_distance.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/00_distance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_circle.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_circle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/02_operations.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/02_operations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/03_favorite_movies.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/03_favorite_movies.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/04_my_family.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/04_my_family.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/05_zoo.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/05_zoo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/06_songs_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/06_songs_list.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +52,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.00_distance.executor": "Run",
+    "Python.01_circle.executor": "Run",
+    "Python.02_operations.executor": "Run",
+    "Python.03_favorite_movies.executor": "Run",
+    "Python.04_my_family.executor": "Run",
+    "Python.05_zoo.executor": "Run",
+    "Python.06_songs_list.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "settings.editor.selected.configurable": "preferences.pluginManager"
@@ -92,7 +103,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726926950734</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="distance">
+      <option name="closed" value="true" />
+      <created>1726927885760</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726927885760</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -110,6 +129,7 @@
     <MESSAGE value="init rep" />
     <MESSAGE value="init python" />
     <MESSAGE value="init start files" />
-    <option name="LAST_COMMIT_MESSAGE" value="init start files" />
+    <MESSAGE value="distance" />
+    <option name="LAST_COMMIT_MESSAGE" value="distance" />
   </component>
 </project>

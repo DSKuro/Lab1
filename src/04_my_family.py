@@ -4,17 +4,34 @@
 # Создайте списки:
 
 # моя семья (минимум 3 элемента, есть еще дедушки и бабушки, если что)
-my_family = []
-
+my_family = list()
 
 # список списков приблизителного роста членов вашей семьи
-my_family_height = [
+#my_family_height = [
     # ['имя', рост],
-    [],
-]
+#    [],
+#]
 
 # Выведите на консоль рост отца в формате
 #   Рост отца - ХХ см
 
 # Выведите на консоль общий рост вашей семьи как сумму ростов всех членов
 #   Общий рост моей семьи - ХХ см
+
+my_family.append('father')
+my_family.append('mother')
+my_family.append('sister')
+my_family.append('me')
+
+print(my_family)
+
+my_family_height = [ ['father', 190],
+                ['mother', 170],
+                ['sister', 178],
+                ['me', 180]
+            ]
+print('Рост отца - ' + str(my_family_height[0][1]) + ' см')
+print('Общий рост семьи - ' +
+    str(my_family_height[0][1] + my_family_height[1][1] + my_family_height[2][1] + my_family_height[3][1])
+       + ' см')
+
