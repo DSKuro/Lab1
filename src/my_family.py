@@ -23,15 +23,16 @@ my_family.append('mother')
 my_family.append('sister')
 my_family.append('me')
 
-print(my_family)
-
 my_family_height = [ ['father', 190],
                 ['mother', 170],
                 ['sister', 178],
                 ['me', 180]
             ]
-print('Рост отца - ' + str(my_family_height[0][1]) + ' см')
-print('Общий рост семьи - ' +
-    str(my_family_height[0][1] + my_family_height[1][1] + my_family_height[2][1] + my_family_height[3][1])
-       + ' см')
+
+def print_family():
+    print(my_family)
+    print('Рост отца - ' + str(my_family_height[0][1]) + ' см')
+    print('Общий рост семьи - ' +
+        str(my_family_height[0][1] + my_family_height[1][1] + my_family_height[2][1] + my_family_height[3][1])
+           + ' см')
 

@@ -24,11 +24,6 @@ violator_songs_list = [
 # Лучше заранее вычислить необходимое, а затем в print(xxx, yyy, zzz)
 
 # TODO здесь ваш код
-halo_time = violator_songs_list[3][1]
-enjoy_time = violator_songs_list[5][1]
-clean_time = violator_songs_list[-1][1]
-summ = halo_time + enjoy_time + clean_time
-print("Три песни звучат " + str(round(summ, 2)))
 
 # Есть словарь песен группы Depeche Mode
 violator_songs_dict = {
@@ -47,8 +42,16 @@ violator_songs_dict = {
 #   А другие три песни звучат ХХХ минут
 
 # TODO здесь ваш код
-sweet_time = violator_songs_dict['Sweetest Perfection']
-policy_time = violator_songs_dict['Policy of Truth']
-blue_time = violator_songs_dict['Blue Dress']
-summ = sweet_time + policy_time + blue_time
-print('А другие три песни звучат ' + str(round(summ, 2)) + ' минут')
+
+def print_songs():
+    halo_time = violator_songs_list[3][1]
+    enjoy_time = violator_songs_list[5][1]
+    clean_time = violator_songs_list[-1][1]
+    summ = halo_time + enjoy_time + clean_time
+    print("Три песни звучат " + str(round(summ, 2)))
+
+    sweet_time = violator_songs_dict['Sweetest Perfection']
+    policy_time = violator_songs_dict['Policy of Truth']
+    blue_time = violator_songs_dict['Blue Dress']
+    summ = sweet_time + policy_time + blue_time
+    print('А другие три песни звучат ' + str(round(summ, 2)) + ' минут')

@@ -4,12 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c35cf819-cb2c-497c-ab54-7bf274b3d732" name="Changes" comment="01-06">
+    <list default="true" id="c35cf819-cb2c-497c-ab54-7bf274b3d732" name="Changes" comment="06 - 10">
+      <change afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/07_secret.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/07_secret.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/08_garden.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/08_garden.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/09_shopping.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/09_shopping.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/10_store.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/10_store.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/00_distance.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/distance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_circle.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/circle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/02_operations.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/operations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/03_favorite_movies.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/favorite_movies.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/04_my_family.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/my_family.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/05_zoo.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zoo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/06_songs_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/songs_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/07_secret.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/secret.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/08_garden.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/garden.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/09_shopping.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/shopping.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10_store.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/store.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +67,7 @@
     "Python.07_secret.executor": "Run",
     "Python.08_garden.executor": "Run",
     "Python.10_store.executor": "Run",
+    "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "settings.editor.selected.configurable": "preferences.pluginManager"
@@ -120,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726930890877</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="06 - 10">
+      <option name="closed" value="true" />
+      <created>1726933895883</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1726933895883</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -140,6 +157,7 @@
     <MESSAGE value="init start files" />
     <MESSAGE value="distance" />
     <MESSAGE value="01-06" />
-    <option name="LAST_COMMIT_MESSAGE" value="01-06" />
+    <MESSAGE value="06 - 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="06 - 10" />
   </component>
 </project>
