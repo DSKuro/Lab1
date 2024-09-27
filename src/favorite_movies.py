@@ -1,25 +1,32 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
+def user_input() -> tuple:
+    string = input("Введите любимые фильмы: ")
+    delim = input("Введите разделитель: ")
+    return string, delim
 
-# Есть строка с перечислением фильмов
+def get_positions(films : str, delimeter : str) -> list:
+    delimeter_position = []
+    for i in range(len(films)):
+        if films[i] == delimeter:
+            delimeter_position.append(i)
 
-my_favorite_movies = 'Терминатор, Пятый элемент, Аватар, Чужие, Назад в будущее'
+    return delimeter_position
 
-# Выведите на консоль с помощью индексации строки, последовательно:
-#   первый фильм
-#   последний
-#   второй
-#   второй с конца
+def get_movies(films : str, delimeters : list) -> list:
+    movies = list()
+    movies.append(films[:delimeters[0]])
+    movies.append(films[delimeters[-1] + 2:])
+    movies.append(films[delimeters[0] + 2 : delimeters[1]])
+    movies.append(films[delimeters[-4] + 2 : delimeters[-3]])
 
-# Запятая не должна выводиться.  Переопределять my_favorite_movies нельзя
-# Использовать .split() или .find()или другие методы строки нельзя - пользуйтесь только срезами,
-# как указано в задании!
+    return movies
 
-# TODO здесь ваш код
 def print_movies():
-    print(my_favorite_movies[:10])
-    print(my_favorite_movies[42:])
-    print(my_favorite_movies[12:25])
-    print(my_favorite_movies[-15:])
-    return (my_favorite_movies[:10], my_favorite_movies[42:],
-            my_favorite_movies[12:25], my_favorite_movies[-15:])
+    my_favorite_movies = 'Терминатор, Пятый элемент, Аватар, Чужие, Назад в будущее'
+    default_delim = ","
+    string, delim = user_input()
+    if string == "":
+        string = my_favorite_movies
+    if delim == "":
+        delim = default_delim
+    delimeter = get_positions(string, delim)
+    print(get_movies(string, delimeter))

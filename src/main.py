@@ -1,9 +1,9 @@
-from distance import get_distances
-from circle import print_answer
-from operations import print_operation_answer
+from distance import print_distance
+from circle import print_circle
+from operations import print_operation
 from favorite_movies import print_movies
 from my_family import print_family
-from zoo import print_zoo
+from zoo import main_zoo
 from songs_list import print_songs
 from secret import print_secret
 from garden import print_garden
@@ -33,17 +33,17 @@ if __name__ == "__main__":
             continue
         match user_input:
             case 1:
-                get_distances()
+                print_distance()
             case 2:
-                print_answer()
+                print_circle()
             case 3:
-                print_operation_answer()
+                print_operation()
             case 4:
                 print_movies()
             case 5:
                 print_family()
             case 6:
-                print_zoo()
+                main_zoo()
             case 7:
                 print_songs()
             case 8:

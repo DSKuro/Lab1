@@ -1,29 +1,37 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -
-# Есть словарь координат городов
+def get_user_dict() -> dict:
+    result = {}
+    count = int(input("Введите количество элементов в словаре: "))
+    if count <= 0:
+        print("Количество не может быть меньше или равно 0!")
+        return {}
 
-import pytest
+    for el in range(count):
+        key = input("Введите ключ: ")
+        value_input = input("Введите значение: ")
+        for item in value_input.split():
+            if int(item) < 0:
+                print("Расстояние не может быть отрицательным")
+                return {}
+        value = tuple(map(int, value_input.split()))
+        result[key] = value
+    return result
 
-sites = {
-    'Moscow': (550, 370),
-    'London': (510, 510),
-    'Paris': (480, 480),
-}
-
-# Составим словарь словарей расстояний между ними
-# расстояние на координатной сетке - ((x1 - x2) ** 2 + (y1 - y2) ** 2) ** 0.5
-# TODO здесь заполнение словаря
-def get_distances():
+def get_distances() -> dict:
+    cities = get_user_dict()
+    if cities == {}:
+        return {}
     distances = {}
 
-    for i in sites:
+    for i in cities:
         distances[i] = {}
-        for j in sites:
-            distances[i][j] = ( (sites[i][0] - sites[j][0]) ** 2 + (sites[i][1] - sites[j][1]) ** 2) ** 0.5
+        for j in cities:
+            distances[i][j] = ( (cities[i][0] - cities[j][0]) ** 2 + (cities[i][1] - cities[j][1]) ** 2) ** 0.5
 
-    print(distances)
     return distances
 
+def print_distance():
+    if get_distances() != {}:
+        print(get_distances())
 
 
 

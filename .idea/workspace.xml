@@ -4,9 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c35cf819-cb2c-497c-ab54-7bf274b3d732" name="Changes" comment="requirements.txt">
+    <list default="true" id="c35cf819-cb2c-497c-ab54-7bf274b3d732" name="Changes" comment="Update README.MD">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/circle.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/circle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/distance.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/distance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/favorite_movies.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/favorite_movies.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/garden.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/garden.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/my_family.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/my_family.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/operations.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/operations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secret.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/secret.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shopping.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/shopping.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/songs_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/songs_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/store.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zoo.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/zoo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,47 +35,51 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "DSKuro"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;DSKuro&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/DSKuro/Lab1",
-    "accountId": "6e44ec07-1dac-422d-ad15-eef0db0e2ebf"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/DSKuro/Lab1&quot;,
+    &quot;accountId&quot;: &quot;6e44ec07-1dac-422d-ad15-eef0db0e2ebf&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2mNnbgBiWa4a85upGrEXToM3Z6B" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests in tests.py.executor": "Run",
-    "Python.00_distance.executor": "Run",
-    "Python.01_circle.executor": "Run",
-    "Python.02_operations.executor": "Run",
-    "Python.03_favorite_movies.executor": "Run",
-    "Python.04_my_family.executor": "Run",
-    "Python.05_zoo.executor": "Run",
-    "Python.06_songs_list.executor": "Run",
-    "Python.07_secret.executor": "Run",
-    "Python.08_garden.executor": "Run",
-    "Python.10_store.executor": "Run",
-    "Python.distance.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests in tests.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.00_distance.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_circle.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_operations.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_favorite_movies.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04_my_family.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05_zoo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.06_songs_list.executor&quot;: &quot;Run&quot;,
+    &quot;Python.07_secret.executor&quot;: &quot;Run&quot;,
+    &quot;Python.08_garden.executor&quot;: &quot;Run&quot;,
+    &quot;Python.10_store.executor&quot;: &quot;Run&quot;,
+    &quot;Python.distance.executor&quot;: &quot;Run&quot;,
+    &quot;Python.favorite_movies.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.my_family.executor&quot;: &quot;Run&quot;,
+    &quot;Python.operations.executor&quot;: &quot;Run&quot;,
+    &quot;Python.songs_list.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -152,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726938069896</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Update README.MD">
+      <option name="closed" value="true" />
+      <created>1726943721643</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1726943721643</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -176,6 +200,7 @@
     <MESSAGE value="module" />
     <MESSAGE value="tests" />
     <MESSAGE value="requirements.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="requirements.txt" />
+    <MESSAGE value="Update README.MD" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update README.MD" />
   </component>
 </project>

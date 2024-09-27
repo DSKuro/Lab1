@@ -1,41 +1,35 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
+def user_input() -> tuple:
+    my_family = list()
+    my_family_height = list()
 
-# Создайте списки:
+    num = int(input("Введите количество элементов: "))
 
-# моя семья (минимум 3 элемента, есть еще дедушки и бабушки, если что)
-my_family = list()
+    if num <= 0:
+        print("Количество не может быть меньше или равно 0")
+        return 0, 0
 
-# список списков приблизителного роста членов вашей семьи
-#my_family_height = [
-    # ['имя', рост],
-#    [],
-#]
+    for _ in range(num):
+        name = input("Введите члена семьи: ")
+        value = int(input("Введите рост члена семьи: "))
+        my_family.append(name)
+        my_family_height.append([name, value])
 
-# Выведите на консоль рост отца в формате
-#   Рост отца - ХХ см
+    return my_family, my_family_height
 
-# Выведите на консоль общий рост вашей семьи как сумму ростов всех членов
-#   Общий рост моей семьи - ХХ см
+def get_family_information(height : list) -> tuple:
+    total_sum = sum(member[1] for member in height)
+    father_height = height[0][1]
 
-my_family.append('father')
-my_family.append('mother')
-my_family.append('sister')
-my_family.append('me')
-
-my_family_height = [ ['father', 190],
-                ['mother', 170],
-                ['sister', 178],
-                ['me', 180]
-            ]
+    return father_height, total_sum
 
 def print_family():
+    my_family, heights = user_input()
+    if my_family == 0 and heights == 0:
+        return
     print(my_family)
-    print('Рост отца - ' + str(my_family_height[0][1]) + ' см')
-    sum_height = my_family_height[0][1] + my_family_height[1][1] + my_family_height[2][1] + my_family_height[3][1]
+    father_height, total_sum = get_family_information(heights)
+    print('Рост отца - ' + str(father_height) + ' см')
     print('Общий рост семьи - ' +
-        str(sum_height)
+        str(total_sum)
            + ' см')
-
-    return (my_family, my_family_height[0][1], sum_height)
 

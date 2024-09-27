@@ -1,51 +1,28 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
+import math
 
-# Есть значение радиуса круга
-radius = 42
+def input_circle() -> tuple:
+    radius = int(input("Введите радиус: "))
+    if radius <= 0:
+        print("Радиус не может быть неположительным!")
+        return 0, 0
+    point = tuple(map(int, input("Введите точку: ").split()))
+    return radius, point
 
-def in_circle(point: tuple) -> str:
+def in_circle(radius : int, point: tuple) -> str:
     distance = (point[0] ** 2 + point[1] ** 2) ** 0.5
     return str(distance <= radius)
 
-# Выведите на консоль значение прощади этого круга с точностю до 4-х знаков после запятой
-# подсказки:
-#       формулу можно подсмотреть в интернете,
-#       пи возьмите равным 3.1415926
-#       точность указывается в функции round()
-# TODO здесь ваш код
+def get_s(radius: int) -> float:
+    pi = round(math.pi, 7)
+    return round((pi * (radius ** 2)), 4)
 
-# Далее, пусть есть координаты точки
-point_1 = (23, 34)
-# где 23 - координата х, 34 - координата у
-
-# Если точка point лежит внутри того самого круга [центр в начале координат (0, 0), radius = 42],
-# то выведите на консоль True, Или False, если точка лежит вовне круга.
-# подсказки:
-#       нужно определить расстояние от этой точки до начала координат (0, 0)
-#       формула так же есть в интернете
-#       квадратный корень - это возведение в степень 0.5
-#       операции сравнения дают булевы константы True и False
-# TODO здесь ваш код
-
-# Аналогично для другой точки
-point_2 = (30, 30)
-# Если точка point_2 лежит внутри круга (radius = 42), то выведите на консоль True,
-# Или False, если точка лежит вовне круга.
-# TODO здесь ваш код
-
-def print_answer():
-    pi = 3.1415926
-    s = round((pi * (radius ** 2)), 4)
+def get_answer(radius: int, point: tuple):
+    s = get_s(radius)
     print("S круга: " + str(s))
-    print("Точка лежит в/на круге: " + in_circle(point_1))
-    print("Точка лежит в/на круге: " + in_circle(point_2))
-    return (s, in_circle(point_1), in_circle(point_2))
+    print("Точка лежит в/на круге: " + in_circle(radius, point))
 
-# Пример вывода на консоль:
-#
-# 77777.7777
-# False
-# False
-
-
+def print_circle():
+    radius, point = input_circle()
+    if radius == 0 and point == 0:
+        return
+    get_answer(radius, point)
