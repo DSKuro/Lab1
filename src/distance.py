@@ -16,8 +16,7 @@ def get_user_dict() -> dict:
         result[key] = value
     return result
 
-def get_distances() -> dict:
-    cities = get_user_dict()
+def calculate_distance(cities : dict) -> dict:
     if cities == {}:
         return {}
     distances = {}
@@ -26,6 +25,13 @@ def get_distances() -> dict:
         distances[i] = {}
         for j in cities:
             distances[i][j] = ( (cities[i][0] - cities[j][0]) ** 2 + (cities[i][1] - cities[j][1]) ** 2) ** 0.5
+    return distances
+
+def get_distances() -> dict:
+    cities = get_user_dict()
+    if cities == {}:
+        return {}
+    distances = calculate_distance(cities)
 
     return distances
 

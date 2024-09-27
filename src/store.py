@@ -21,7 +21,7 @@ def get_store_input() -> dict:
         store[code].append({'quantity': quantity, 'price': price})
     return store
 
-def calculate_costs(goods, store):
+def calculate_costs(goods : dict, store : dict) -> dict:
     results = {}
     for item, code in goods.items():
         if code in store:
